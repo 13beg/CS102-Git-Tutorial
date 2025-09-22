@@ -16,7 +16,12 @@ public class CipherTest {
         System.out.println("Decrypted Text: " + text1_decrypted);
         System.out.println();
 
+        // text2 is the message to be decrypted, something meaningful should print if Cipher is working correctly
+        String text2 = "iu, git pldp hehocplvgk vj tiouvgk, plvj jliqay sduh jhgjh. ldeh d kiiy phos!";
+        System.out.println(cipher.decrypt(text2));
+
      }   
     
 }
+
 
